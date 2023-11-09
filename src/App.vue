@@ -1,7 +1,10 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Головна</router-link> |
+    <router-link to="/shop">Магазин</router-link> |
+	 <router-link to="/payment_rules">Правила оплати</router-link> |
+	 <router-link to="/contacts">Контакти</router-link>
+	 
   </nav>
   <router-view />
 </template>
@@ -11,7 +14,6 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
